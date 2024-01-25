@@ -1,0 +1,24 @@
+{
+  "name": "eudonix-project-theme-wordstrap",
+  "version": "1.0.0",
+  "description": "WordPress theme based upon fourth project in Udemy series \"Learn to Create WordPress Themes by Building 10 Projects\" by Eudonix",
+  "main": "index.js",
+  "scripts": {
+    "sass:compile": "node-sass style.scss style.css",
+    "sass:watch": "node-sass style.scss style.css -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbehnfeldt/eduonix-wordpress-theme-wordstrap.git"
+  },
+  "author": "Stephen Behnfeldt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sbehnfeldt/eduonix-wordpress-theme-wordstrap/issues"
+  },
+  "homepage": "https://github.com/sbehnfeldt/eduonix-wordpress-theme-pwordstrap#readme",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
