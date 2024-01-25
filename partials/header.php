@@ -16,7 +16,14 @@
                     'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
                     'walker'          => new WP_Bootstrap_Navwalker(),
                 ) ); ?>
-                <form class="d-flex" role="search"></form>
+                <form class="d-flex navbar-form navbar-right" role="search" method="get" action="<?php echo esc_url(home_url('/')); ?>">
+                    <label for="navbar-search" class="sr-only"><?php _e('Search', 'textdomain') ?></label>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="s" id="navbar-search">
+                    </div>
+                    <button class="btn btn-primary" type="submit"><?php _e('Search', 'textdomain') ?></button>
+
+                </form>
             </div>
         </div>
     </nav>
