@@ -4,3 +4,26 @@
   Description: Theme based on Project 4 from Udemy series "Learn to Create WordPress Themes by Building 10 Projects" by Eudonix
   Version: 1.0
 */
+
+article.post {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+
+    &:last-child {
+        padding-bottom: 0;
+        border-bottom: none;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+    }
+
+    .meta {
+        background: #f4f4f4;
+        padding: 8px 12px;
+        color: #333;
+    }
+}
